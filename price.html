@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -9,7 +9,15 @@
     <link rel="stylesheet" href="style.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Цены на услуги в Наркологической клинике Trezvostin</title>
+    <meta name="description" content="Узнайте цены на услуги наркологической клиники Trezvostin. Мы предлагаем широкий спектр услуг по лечению зависимости с различными пакетами и ценами.">
+    <meta name="keywords" content="цены на услуги, нарколог, лечение зависимости, стоимость услуг, Trezvostin">
+    <meta property="og:title" content="Цены на услуги в Наркологической клинике Trezvostin">
+    <meta property="og:description" content="Узнайте цены на услуги наркологической клиники Trezvostin. Мы предлагаем широкий спектр услуг по лечению зависимости с различными пакетами и ценами.">
+    <meta property="og:image" content="ссылка_на_изображение_логотипа_или_главной_страницы">
+    <meta property="og:url" content="ссылка_на_страницу_с_ценами">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="ru_RU">
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
@@ -27,7 +35,22 @@
           <li><a href=" ./IV.html">IV-терапия</a></li>
           <li><a href="./index.html#footer">Контакты</a></li>
         </ul>
-        <a href="tel:+79209374763">+79209374763</a>
+        <a class="phone-link" href="tel:+79209374763">+79209374763</a>
+        <button class="button-popup" id="button">
+          <svg xmlns="http://www.w3.org/2000/svg" width="38" height="27" viewBox="0 0 38 27" fill="none">
+            <path d="M6 5.5H32" stroke="black" stroke-width="2"/>
+            <path d="M6 13.5H32" stroke="black" stroke-width="2"/>
+            <path d="M6 21.5H32" stroke="black" stroke-width="2"/>
+          </svg>
+        </button>
+        <div id="popup">
+          <ul>
+            <li><a href="./index.html#about">О нас</a></li>
+            <li><a href="./price.html">Цены</a></li>
+            <li><a href=" ./IV.html">IV-терапия</a></li>
+            <li><a href="./index.html#footer">Контакты</a></li>
+          </ul>
+        </div>
       </div>
     </header>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
@@ -107,7 +130,7 @@
         <div class="price-item">
           <div class="price-text">Девятиместная палата</div>
           <div class="price-text-second">
-            <p class="price-count">9 000 ₽</p>
+            <p class="price-count fix">9 000 ₽</p>
             <a class="button-price" href="index.html#call">Заказать</a>
           </div>
         </div>
@@ -181,7 +204,7 @@
     </section>
     <footer class="footer" id="footer">
       <div class="bottom-footer">
-        <a href="" class="logo">Trezvostin</a>
+        <a href="./index.html" class="logo">Trezvostin</a>
         <p>Гарантируем 100% результат при соблюдении всех рекомендаций врача</p>
       </div>
       <div class="head-footer">

@@ -35,3 +35,18 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
+const button = document.getElementById('button');
+
+button.addEventListener('click', ()=>{
+    openPopup();
+});
+
+function openPopup() {
+    if(document.getElementById('popup').classList.contains('active')){
+        document.getElementById('popup').classList.remove('active');
+    }else{
+        document.getElementById('popup').classList.add('active');
+    }
+}
+

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -9,7 +9,15 @@
     <link rel="stylesheet" href="style.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Наркологическая клиника Trezvostin - Ваш путь к здоровью и трезвости. Профессиональная наркологическая и психиатрическая помощь. Срочный выезд. Вывод из запоя на дому. Стационарное лечение. Анонимно.</title>
+    <meta name="description" content="Наркологическая клиника Trezvostin предоставляет высококачественные услуги по лечению зависимости. Наши специалисты помогут вам вернуть здоровье и трезвость.">
+    <meta name="keywords" content="наркология, лечение зависимости, трезвость, наркологическая клиника, реабилитация, Московская область, Москва, программы восстановления, амбулаторное лечение, стационарное лечение, индивидуальный подход, профессиональные наркологи, психотерапия, медикаментозная терапия, групповые сессии, социальная реабилитация, поддержка семьи, послеоперационный уход, долгосрочная поддержка, современные методики лечения, безопасная детоксикация, эффективные реабилитационные программы">
+    <meta property="og:title" content="Наркологическая клиника Trezvostin">
+    <meta property="og:description" content="Ваш путь к здоровью и трезвости. Лечение зависимости в наркологической клинике Trezvostin.">
+    <meta property="og:image" content="ссылка_на_изображение_логотипа_или_главной_страницы">
+    <meta property="og:url" content="ссылка_на_главную_страницу">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="ru_RU">
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
@@ -27,7 +35,22 @@
           <li><a href=" ./IV.html">IV-терапия</a></li>
           <li><a href="./index.html#footer">Контакты</a></li>
         </ul>
-        <a href="tel:+79209374763">+79209374763</a>
+        <a class="phone-link" href="tel:+79209374763">+79209374763</a>
+        <button class="button-popup" id="button">
+          <svg xmlns="http://www.w3.org/2000/svg" width="38" height="27" viewBox="0 0 38 27" fill="none">
+            <path d="M6 5.5H32" stroke="black" stroke-width="2"/>
+            <path d="M6 13.5H32" stroke="black" stroke-width="2"/>
+            <path d="M6 21.5H32" stroke="black" stroke-width="2"/>
+          </svg>
+        </button>
+        <div id="popup">
+          <ul>
+            <li><a href="./index.html#about">О нас</a></li>
+            <li><a href="./price.html">Цены</a></li>
+            <li><a href=" ./IV.html">IV-терапия</a></li>
+            <li><a href="./index.html#footer">Контакты</a></li>
+          </ul>
+        </div>
       </div>
     </header>
     <section class="intro" id="call">
@@ -38,72 +61,127 @@
       </div>
     </section>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
-
-    <section class="slider-cards">
+    <section class="slider-cards adaptive">
       <h2 class="title-section">Вызов врача на дом</h2>
-      <swiper-container class="swiper" draggable="false" slides-per-view="3">
+      <swiper-container navigation="true" class="swiper" draggable="true" slides-per-view="auto">
         <swiper-slide
-          ><div class="slider-card">
-            <div class="text-flex">
-              <h2>Стандарт</h2>
-              <p class="slide-description">
-                <img src="./assets/polyarizuyushhaya-smes.png" alt="" />
-                Все необходимое для стабилизации состояния.
-              </p>
-              <p class="slide-description">
-                <img src="./assets/polyarizuyushhaya-smes.png" alt="" />
-                Включен минимально необходимый набор медикаментов
-              </p>
-            </div>
+        ><div class="slider-card">
+          <div class="text-flex">
+            <h2>Стандарт</h2>
+            <p class="slide-description">
+              <img src="./assets/polyarizuyushhaya-smes.png" alt="" />
+              Все необходимое для стабилизации состояния.
+            </p>
+            <p class="slide-description">
+              <img src="./assets/polyarizuyushhaya-smes.png" alt="" />
+              Включен минимально необходимый набор медикаментов
+            </p>
+          </div>
 
-            <p class="price">5000 руб.</p>
-          </div></swiper-slide
+          <p class="price">5000 руб.</p>
+        </div></swiper-slide
         >
         <swiper-slide
-          ><div class="slider-card">
-            <div class="text-flex">
-              <h2>Медиум</h2>
-              <p class="slide-description">
-                <img src="./assets/polyarizuyushhaya-smes.png" alt="" />
-                Индивидуальный план восстановления
-              </p>
-              <p class="slide-description">
-                <img src="./assets/polyarizuyushhaya-smes.png" alt="" />
-                В результате усиленной программы очищение и восстановление
-                организма происходит быстро и эффективно
-              </p>
-            </div>
+        ><div class="slider-card">
+          <div class="text-flex">
+            <h2>Медиум</h2>
+            <p class="slide-description">
+              <img src="./assets/polyarizuyushhaya-smes.png" alt="" />
+              Индивидуальный план восстановления
+            </p>
+            <p class="slide-description">
+              <img src="./assets/polyarizuyushhaya-smes.png" alt="" />
+              В результате усиленной программы очищение и восстановление
+              организма происходит быстро и эффективно
+            </p>
+          </div>
 
-            <p class="price">8000 руб.</p>
-          </div></swiper-slide
+          <p class="price">8000 руб.</p>
+        </div></swiper-slide
         >
         <swiper-slide
-          ><div class="slider-card">
-            <div class="text-flex">
-              <h2>Ультра</h2>
-              <p class="slide-description">
-                <img src="./assets/polyarizuyushhaya-smes.png" alt="" />
-                Работа с психологом
-              </p>
-              <p class="slide-description">
-                <img src="./assets/polyarizuyushhaya-smes.png" alt="" />
-                Индиви дуальный план восстановления
-              </p>
-              <p class="slide-description">
-                <img src="./assets/polyarizuyushhaya-smes.png" alt="" />
-                Гарантия положительного результата
-              </p>
-            </div>
+        ><div class="slider-card">
+          <div class="text-flex">
+            <h2>Ультра</h2>
+            <p class="slide-description">
+              <img src="./assets/polyarizuyushhaya-smes.png" alt="" />
+              Работа с психологом
+            </p>
+            <p class="slide-description">
+              <img src="./assets/polyarizuyushhaya-smes.png" alt="" />
+              Индиви дуальный план восстановления
+            </p>
+            <p class="slide-description">
+              <img src="./assets/polyarizuyushhaya-smes.png" alt="" />
+              Гарантия положительного результата
+            </p>
+          </div>
 
-            <p class="price">15000 руб.</p>
-          </div></swiper-slide
+          <p class="price">15000 руб.</p>
+        </div></swiper-slide
         >
       </swiper-container>
+    </section>
+    <section class="slider-cards">
+      <h2 class="title-section">Вызов врача на дом</h2>
+      <div class="inner-slider-cards">
+        <div class="slider-card">
+          <div class="text-flex">
+            <h2>Стандарт</h2>
+            <p class="slide-description">
+              <img src="./assets/polyarizuyushhaya-smes.png" alt="" />
+              Все необходимое для стабилизации состояния.
+            </p>
+            <p class="slide-description">
+              <img src="./assets/polyarizuyushhaya-smes.png" alt="" />
+              Включен минимально необходимый набор медикаментов
+            </p>
+          </div>
+
+          <p class="price">5000 руб.</p>
+        </div>
+        <div class="slider-card">
+          <div class="text-flex">
+            <h2>Медиум</h2>
+            <p class="slide-description">
+              <img src="./assets/polyarizuyushhaya-smes.png" alt="" />
+              Индивидуальный план восстановления
+            </p>
+            <p class="slide-description">
+              <img src="./assets/polyarizuyushhaya-smes.png" alt="" />
+              В результате усиленной программы очищение и восстановление
+              организма происходит быстро и эффективно
+            </p>
+          </div>
+
+          <p class="price">8000 руб.</p>
+        </div>
+        <div class="slider-card">
+          <div class="text-flex">
+            <h2>Ультра</h2>
+            <p class="slide-description">
+              <img src="./assets/polyarizuyushhaya-smes.png" alt="" />
+              Работа с психологом
+            </p>
+            <p class="slide-description">
+              <img src="./assets/polyarizuyushhaya-smes.png" alt="" />
+              Индиви дуальный план восстановления
+            </p>
+            <p class="slide-description">
+              <img src="./assets/polyarizuyushhaya-smes.png" alt="" />
+              Гарантия положительного результата
+            </p>
+          </div>
+
+          <p class="price">15000 руб.</p>
+        </div>
+      </div>
+
     </section>
     <section class="cheaps">
       <h1>Наши гарантии</h1>
       <div class="cheaps-wrapper">
-        <div class="cheapCard">
+        <div class="cheapCard first">
           <div class="card-outside">
             <svg width="56" height="57" viewBox="0 0 56 57" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g id="honor" clip-path="url(#clip0_1292_5366)">
@@ -129,7 +207,7 @@
           </div>
           <p>Гарантируем 100% результат после лечения если соблюдать все рекомендации врача</p>
         </div>
-        <div class="cheapCard">
+        <div class="cheapCard first">
           <div class="card-outside">
             <svg width="46" height="57" viewBox="0 0 46 57" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g id="drug" clip-path="url(#clip0_1292_8357)">
@@ -151,7 +229,7 @@
           </div>
           <p>Гарантируем 100% результат после лечения если соблюдать все рекомендации врача</p>
         </div>
-        <div class="cheapCard">
+        <div class="cheapCard second">
           <div class="card-outside">
             <svg width="56" height="57" viewBox="0 0 56 57" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g id="diagnostics" clip-path="url(#clip0_1292_6923)">
@@ -250,6 +328,7 @@
         <div class="image-text">
           <div class="about-text">
             <h2>Признаки болезни</h2>
+            <br />
             <p>
               Чем раньше была начата терапия, тем быстрее будет достигнута
               стабильная ремиссия или полное выздоровление. Алкоголики обычно
@@ -258,6 +337,7 @@
               даже на этом этапе можно добиться выздоровления, восстановления
               здоровья, психологического состояния и социальных навыков.
             </p>
+            <br />
             <p>
               Понять, что без наркологической помощи отказаться от зависимости
               не удастся, можно по следующим
@@ -268,6 +348,7 @@
               <li>физические и психические осложнения</li>
               <li>отравление этиловым спиртом</li>
             </ul>
+            <br />
             <p>
               Нередко зависимый неосознанно маскирует проблему, утверждая, что
               употребляет алкоголь по своему желанию, так как он:
@@ -295,9 +376,8 @@
     </section>
     <section class="slider-cards">
       <h2 class="title-section">Кодировка</h2>
-      <swiper-container class="swiper" draggable="false" slides-per-view="3">
-        <swiper-slide
-          ><div class="slider-card">
+      <div class="inner-slider-cards">
+        <div class="slider-card">
             <div class="text-flex">
               <h2>Вшивание</h2>
               <p class="slide-description">
@@ -311,10 +391,8 @@
             </div>
 
             <p class="price">5000 руб.</p>
-          </div></swiper-slide
-        >
-        <swiper-slide
-          ><div class="slider-card">
+          </div>
+        <div class="slider-card">
             <div class="text-flex">
               <h2>Укол</h2>
               <p class="slide-description">
@@ -329,10 +407,8 @@
             </div>
 
             <p class="price">8000 руб.</p>
-          </div></swiper-slide
-        >
-        <swiper-slide
-          ><div class="slider-card">
+          </div>
+        <div class="slider-card">
             <div class="text-flex">
               <h2>2х Блок</h2>
               <p class="slide-description">
@@ -350,7 +426,67 @@
             </div>
 
             <p class="price">15000 руб.</p>
-          </div></swiper-slide
+          </div>
+      </div>
+    </section>
+    <section class="slider-cards adaptive">
+      <h2 class="title-section">Кодировка</h2>
+      <swiper-container class="swiper" draggable="false" spaceBetween="20" navigation="true" slides-per-view="auto">
+        <swiper-slide
+        ><div class="slider-card">
+          <div class="text-flex">
+            <h2>Вшивание</h2>
+            <p class="slide-description">
+              <img src="./assets/polyarizuyushhaya-smes.png" alt="" />
+              Все необходимое для стабилизации состояния.
+            </p>
+            <p class="slide-description">
+              <img src="./assets/polyarizuyushhaya-smes.png" alt="" />
+              Включен минимально необходимый набор медикаментов
+            </p>
+          </div>
+
+          <p class="price">5000 руб.</p>
+        </div></swiper-slide
+        >
+        <swiper-slide
+        ><div class="slider-card">
+          <div class="text-flex">
+            <h2>Укол</h2>
+            <p class="slide-description">
+              <img src="./assets/polyarizuyushhaya-smes.png" alt="" />
+              Индивидуальный план восстановления
+            </p>
+            <p class="slide-description">
+              <img src="./assets/polyarizuyushhaya-smes.png" alt="" />
+              В результате усиленной программы очищение и восстановление
+              организма происходит быстро и эффективно
+            </p>
+          </div>
+
+          <p class="price">8000 руб.</p>
+        </div></swiper-slide
+        >
+        <swiper-slide
+        ><div class="slider-card">
+          <div class="text-flex">
+            <h2>2х Блок</h2>
+            <p class="slide-description">
+              <img src="./assets/polyarizuyushhaya-smes.png" alt="" />
+              Работа с психологом
+            </p>
+            <p class="slide-description">
+              <img src="./assets/polyarizuyushhaya-smes.png" alt="" />
+              Индиви дуальный план восстановления
+            </p>
+            <p class="slide-description">
+              <img src="./assets/polyarizuyushhaya-smes.png" alt="" />
+              Гарантия положительного результата
+            </p>
+          </div>
+
+          <p class="price">15000 руб.</p>
+        </div></swiper-slide
         >
       </swiper-container>
     </section>
@@ -437,7 +573,7 @@
     </div>
     <footer class="footer" id="footer">
       <div class="bottom-footer">
-        <a href="" class="logo">Trezvostin</a>
+        <a href="./index.html" class="logo">Trezvostin</a>
         <p>Гарантируем 100% результат при соблюдении всех рекомендаций врача</p>
       </div>
       <div class="head-footer">
