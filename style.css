@@ -66,7 +66,7 @@ header {
   padding: 20px;
   background-color: #5531d2;
   text-decoration: none;
-  color: white;
+  color: rgb(255, 255, 255);
   width: fit-content;
   border-radius: 10px;
 }
@@ -879,7 +879,7 @@ li::before {
 
 @media (max-width: 600px) {
   .intro{
-    background: white;
+
   }
   .cheaps-wrapper {
     display: flex;
