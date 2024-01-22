@@ -879,7 +879,7 @@ li::before {
 
 @media (max-width: 600px) {
   .intro{
-margin-top: 90px;
+margin-top: 60px;
   }
   .cheaps-wrapper {
     display: flex;
