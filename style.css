@@ -70,6 +70,29 @@ header {
   width: fit-content;
   border-radius: 10px;
 }
+
+.text-slider{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  padding: 0 24px;
+  align-items: center;
+}
+
+.text-slider p{
+  padding: 0;
+}
+
+.text-slider a {
+  display: block;
+  padding: 20px;
+  background-color: #5531d2;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  width: fit-content;
+  border-radius: 10px;
+}
+
 .header__wrapper img {
   max-height: 200px;
 }
@@ -285,7 +308,7 @@ header {
   font-size: 28px;
   font-style: normal;
   font-weight: 700;
-  padding: 0 24px;
+  padding: 0;
   line-height: 120%; /* 33.6px */
   text-align: end;
 }
@@ -672,6 +695,11 @@ li::before {
   font-weight: 700;
   line-height: 140%; /* 25.2px */
 }
+
+.swiper-button-next {
+  margin-right: -20px;
+}
+
 .button-price {
   border-radius: 10px;
   background: var(--accent, #43cdd7);
@@ -699,7 +727,7 @@ li::before {
 
 .cheapCard{
   width: 280px;
-  height: 160px;
+  height: 175px;
   border-radius: 20px;
   position: relative;
   display: flex;
@@ -965,4 +993,11 @@ margin-top: -55px;
   .about{
     margin-top: 60px;
   }
+  .text-slider{
+  }
+
+  .text-slider .price{
+    font-size: 22px;
+  }
+
 }
