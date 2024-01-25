@@ -278,7 +278,7 @@ header {
 }
 .slider-card {
   width: 360px;
-  height: 484px;
+  height: 500px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
